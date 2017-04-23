@@ -1,0 +1,303 @@
+/*after-menu.start*/
+.after-menu {
+    background-color: #f5f5f5;
+}
+.after-menu .container ul {
+    padding: 27px 0;
+    
+}
+.after-menu .container ul li {
+    float: left;
+    list-style-type: none;
+    font-size: 16px;
+    line-height: 16px;
+    color: #999;
+    margin-right: 10px;
+}
+.after-menu .container ul li a {
+    text-decoration: none;
+    color: #d8703f;
+}
+.after-menu .container ul li i {
+    margin-right: 16px;
+}
+/*after-menu.end*/
+/*login-form.start*/
+
+.form-padding-row {
+    padding: 0 10%;
+}
+.login-form {
+    padding: 88px 0 84px 0;
+}
+.login-form hr {
+    border: 1px solid #999;
+}
+.form-title {
+    font-size: 45px;
+    line-height: 45px;
+    text-align: center;
+}
+.form-intro {
+    font-size: 11px;
+    line-height: 23px;
+    color: #999;
+    margin: 9px 0 50px 0;
+    text-align: center;
+}
+.login-form-box {
+    padding: 48px;
+    background-color: #f7f7f9;
+    margin: 0 0 53px 0;
+}
+.register-form-margin {
+    margin-bottom: 24px;
+}
+.password-box,.email-box,.name-box {
+    height: 43px;
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 10px 10px 10px 45px;
+}
+.email-box {
+    background-image: url("../images/form-mail.png");
+    background-repeat: no-repeat;
+    background-position: 15px center;
+}
+.password-box {
+    background-image: url("../images/form-lock.png");
+    background-repeat: no-repeat;
+    background-position: 15px center;
+}
+.name-box {
+    background-image: url("../images/person.png");
+    background-repeat: no-repeat;
+    background-position: 15px center; 
+}
+.name-box-persons {
+    background-image: url("../images/persons.png");
+    background-repeat: no-repeat;
+    background-position: 15px center; 
+}
+.forgot-password {
+    font-size: 14px;
+    line-height: 14px;
+    margin: 15px 0 25px 0;
+}
+.password-box input,.email-box input,.name-box input {
+    font-size: 14px;
+    color: #999;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.login-btn-box input {
+    height: 43px;
+    width: 100%;
+    background-color: #ffc229;
+    color: #fff;
+    font-size: 12px;
+    line-height: 43px;
+    border: none;
+    outline: none;
+    text-align: center;
+    transition: background 0.8s;
+}
+.login-btn-box input:hover {
+    background-color: #d8703f;
+}
+.login-footer {
+    text-align: center;
+}
+.login-footer div:first-child {
+    font-size: 17px;
+    line-height: 17px;
+    margin-bottom: 24px;
+}
+.login-footer div:last-child {
+    font-size: 16px;
+    line-height: 16px;
+    color: #999;
+}
+.login-footer div a {
+    color: #d8703f;
+    text-decoration: none;
+    transition: color 0.8s;
+}
+.login-footer div a:hover {
+    color: #000;
+}
+/*login-form.end*/
+/*register*/
+.home-btn {
+    width: 136px;
+    height: 38px;
+    background-color: #9f9f9f;    
+    text-align: center;
+    transition: background 0.8s;
+    margin: auto;
+}
+.home-btn a {
+    text-decoration: none;
+    transition: color 0.8s;
+    color: #fff;
+    line-height: 38px;
+}
+.home-btn:hover {
+    background-color: #d8703f;
+}
+.input-name {
+    font-size: 12px;
+    line-height: 12px;
+    margin-bottom: 34px;
+}
+.check-box {
+    font-size: 11px;
+    line-height: 11px;
+    margin: 20px 0;
+    color: #999;
+}
+.check-box a {
+    text-decoration: none;
+    color: #999;
+}
+.input-name-margin {
+    margin-top: 48px;
+}
+/*register.end*/
+
+/*mail.start*/
+.mail-box {
+    height: 43px;
+    border: 1px solid #dbdbdb;
+    background-color: #f5f5f5;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+.mail-box input {
+    font-size: 14px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #000;
+}
+.message-box textarea {
+    border: 1px solid #dbdbdb;
+    background-color: #f5f5f5;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%;
+    height: 200px;
+    color: #000;
+}
+.mail-submit-box input {
+    height: 43px;
+    width: 219px;
+    background-color: #d8703f;
+    color: #fff;
+    font-size: 12px;
+    line-height: 43px;
+    border: none;
+    outline: none;
+    text-align: center;
+    transition: background 0.8s;
+}
+.mail-submit-box input:hover {
+    background-color: #ffc229;
+}
+.manager-box {
+    background-color: #ffc229;
+    padding: 2em;
+}
+.manager-box .manager-pic {
+    width: 168px;
+    height: 168px;
+    border: 1px dotted #999;
+    border-radius: 50%;
+    margin: auto;
+    background-image: url("../images/3.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.manager-box .manager-name {
+    font-size: 11px;
+    line-height: 11px;
+    margin: 12px 0 20px 0;
+    text-align: center;
+}
+.manager-manager,.manager-phone,.manager-email {
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #fff;
+}
+.manager-manager {
+    margin: 12px 0 20px 0;
+}
+.manager-phone {
+    margin: 0 0 24px 0;
+}
+.manager-email a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.8s;
+}
+.manager-email a:hover {
+    color: #000;
+}
+.manager-phone i,.manager-email i {
+    margin-right: 9px;
+}
+.manager-sns {
+    margin: 36px 0 5px 0;
+    text-align: center;
+}
+.manager-sns a {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    margin-right: 4px;
+}
+.manager-sns .manager-f {
+    background-image: url("../images/img-sp.png");
+    background-position: -2px -5px;
+    transition: background 0.5s;
+}
+.manager-sns .manager-f:hover {
+    background-position: -2px -54px;
+}
+.manager-sns .manager-t {
+    background-image: url("../images/img-sp.png");
+    background-position: -49px -13px;
+    transition: background 0.5s;
+}
+.manager-sns .manager-t:hover {
+    background-position: -49px -54px;
+}
+.manager-sns .manager-g {
+    background-image: url("../images/img-sp.png");
+    background-position: -94px -12px;
+    transition: background 0.5s;
+}
+.manager-sns .manager-g:hover {
+    background-position: -94px -54px;
+}
+.manager-sns .manager-i {
+    background-image: url("../images/img-sp.png");
+    background-position: -139px -12px;
+    transition: background 0.5s;
+}
+.manager-sns .manager-i:hover {
+    background-position: -139px -52px;
+}
+#map {
+    width:100%;
+    height:300px;
+    margin-top: 40px;
+}
+/*mail.end*/
