@@ -5,6 +5,11 @@
     padding: 0 
 }
 
+/* Fuck 15px for iPhone Start */
+.row{margin:0;}
+.col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-xs-1,.col-xs-10,.col-xs-11,.col-xs-12,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9{padding:0;}
+/* Fuck 15px for iPhone Over */
+
 /*header.start*/
 .header .container .header-top {
     border-bottom: 1px solid #dedede;
@@ -357,7 +362,7 @@
     text-align: center;
     color: #999;
     line-height: 20px;
-    padding: 19px 249px 50px 249px;
+    padding: 19px 30% 50px 30%;
 }
 
 .collections-box {
@@ -535,15 +540,16 @@
     margin-right: 36px;
 }
 .spike-pic-bg {
-    width: 380px;
-    height: 482px;
+    width: 100%;
+    height: auto;
     border: 16px solid #f7f7f9;
-    background-image: url("../images/17.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center center;
     position: relative;
     transition: background linear 2.5s;
+}
+.item-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 .spike-pic-bg:hover {
     background-size: 150% 150%;
@@ -558,6 +564,7 @@
     line-height: 30px;
     position: absolute;
     right: 0;
+    top: 0;
 }
 .spike-deadline {
     margin-bottom: 16px;
@@ -567,25 +574,26 @@
 
 /*sales-start*/
 .sales-box {
-    padding: 128px 0 196px 96px;
+    min-height: 520px;
+    padding: 8em 2em 2em;
     background-image: url("../images/12.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
 }
 .sales-box-content {
-    padding: 128px 64px 46px 32px;
+    padding: 2em;
     border: 5px double #000;
-    width: 538px;
+    width: 50%;
+    margin-left: 4em;
 }
-.sales-box-content div:first-child {
-    font-size: 38px;
+.sales-box-content h3 {
+    font-size: 3em;
     color: #fff;
-    line-height: 38px;
-    margin-bottom: 25px;
+    margin: 0;
+    line-height: 1.3em;
 }
-.sales-box-content div:last-child {
-    font-size: 36px;
-    line-height: 36px;
+.sales-box-content h3 span {
+    display: block;
+    color: #212121;
 }
 /*sales-end*/
 
@@ -812,6 +820,11 @@
 .header .container .header-top .sns-icon {
     float:none;
 }
+@media screen and (max-width: 700px) {
+.header-navbar {
+    display: none;
+}
+
 }
 @media screen and (max-width: 640px) {
 .form-box .input-box {
@@ -842,3 +855,5 @@
 }
 }
 /*media*/
+
+
