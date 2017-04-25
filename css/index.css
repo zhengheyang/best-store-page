@@ -6,8 +6,8 @@
 }
 
 /* Fuck 15px for iPhone Start */
-.row{margin:0;}
-.col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-xs-1,.col-xs-10,.col-xs-11,.col-xs-12,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9{padding:0;}
+/*.row{margin:0;}
+.col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-xs-1,.col-xs-10,.col-xs-11,.col-xs-12,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9{padding:0;}*/
 /* Fuck 15px for iPhone Over */
 
 /*header.start*/
@@ -152,18 +152,12 @@
     color: #000;
 }
 
-
-
-
-
-
 /*header.end*/
 
 /*wrap.start*/
 .wrap {
     padding: 160px 0;
-    background-image: url("../images/banner.jpg");
-    background-repeat: no-repeat;
+    background: url("../images/banner.jpg") no-repeat 0px 0px;
     background-size: cover;
 }
 .wrap .title h1 {
@@ -284,22 +278,22 @@
     position: absolute;
 }
 .screen-1 {
-    left: -260px;
+    left: -280px;
     top: 170px;
     transition: transform 0.2s;
 }
 .screen-2 {
-    left: -260px;
+    left: -280px;
     top: 210px;
     transition: transform 0.3s;
 }
 .screen-3 {
-    left: -260px;
+    left: -280px;
     top: 250px;
     transition: transform 0.4s;
 }
 .ad-left:hover .screen-1,.ad-left:hover .screen-2,.ad-left:hover .screen-3 {
-    transform: translateX(300px);
+    transform: translateX(320px);
 }
 
 .ad-section-bottom {
@@ -578,7 +572,9 @@
     padding: 8em 2em 2em;
     background-image: url("../images/12.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .sales-box-content {
     padding: 2em;
     border: 5px double #000;
@@ -693,7 +689,9 @@
     margin-bottom: 16px;
     color: #999;
 }
-
+.footer-section .content .contact-items {
+    margin-bottom: 20px;
+}
 .footer-section .content .contact-items .icon {
     display: inline-block;
     width: 32px;
@@ -709,45 +707,35 @@
     text-decoration: none;
     color: #999;
 }
+
 .footer-pic {
-    padding: 0;
-    margin: 5px;
-    width: 75px;
+    padding: 0.3em;
+    width: 33.3%;
+    float: left;
 }
-.footer-section img {
-    width: 75px;
-    height: 51px;
+
+.blog-section-info {
+    float: right;
+    width: 65%;
 }
-.footer-section .blog-section>div {
-    display: inline-block;
-}
-.footer-section .blog-section div div {
-    font-size: 15px;
-    line-height: 15px;
-    margin-bottom: 12px;
-}
-.footer-section .blog-section a {
-    text-decoration: none;
+.blog-section-info h4 a {
+    font-size: 1em;
+    line-height: 1.5em;
     color: #999;
-}
-.footer-section .blog-section div div:last-child {
-    font-size: 10px;
-    line-height: 10px;
-    margin-top: 23px;
-}
-.footer-section .blog-section img {
-    width: 77px;
-    height: 101px;
-    padding: 0;
-    margin-right: 21px;
-    vertical-align: top;
-}
-.footer-section .content .blog-section div div a {
+    text-decoration: none;
     transition: color 0.8s;
 }
-.footer-section .content .blog-section div div a:hover {
+.blog-section-info h4 a:hover {
     color: #fff;
 }
+.blog-section-info p {
+    margin: .5em 0 0;
+    color: #999;
+    font-size: 14px;
+    line-height: 1.8em;
+}
+
+
 .footer-logo {
     padding: 66px 0 52px 0;
 }
@@ -853,7 +841,47 @@
     line-height: 10px;
     margin-top: 5px;
 }
+.footer-section {
+    margin: 0 0 2em;
 }
+}
+
+@media screen  and (max-width: 991px) {
+.sales-box {
+    min-height: 280px;
+    padding: 3.5em 2em 2em;
+}
+.sales-box-content {
+    margin-left: 2em;
+}
+}
+@media screen  and (max-width: 1080px) {
+.sales-box {
+    min-height: 425px;
+}
+.sales-box-content h3 {
+    font-size: 2.5em;
+}
+}
+@media screen  and (max-width: 640px) {
+
+.sales-box-content h3 {
+    font-size: 2em;
+}
+.sales-box-content {
+    width: 84%;
+}
+}
+@media screen  and (max-width: 480px) {
+.sales-box {
+    min-height: 217px;
+    padding: 2.5em 2em 2em;
+}
+.sales-box-content {
+    margin-left: 0;
+}
+}
+
 /*media*/
 
 

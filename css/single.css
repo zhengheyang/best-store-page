@@ -199,3 +199,9 @@
 .single-tab .tabbable ul li:hover a {
     color: #D8703F;
 }
+@media screen and (max-width:990px) {
+.collections-box {
+    width: 47%;
+    margin: 0 auto;
+}
+}

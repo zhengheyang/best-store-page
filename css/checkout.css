@@ -171,3 +171,14 @@
     text-align: center;
 }  
 }
+@media screen and (max-width:480px) {
+.checkout-table tr th {
+    display: block;
+    border-right: none;
+    border-bottom: 1px solid #A95832;
+}
+.checkout-table tr td {
+    display: block;
+    border: none;
+}
+}
